@@ -30,7 +30,7 @@ The project follows a layered architecture and is designed to separate notificat
 | Messaging  | AWS SNS, AWS SQS            |
 | AI         | Spring AI (Ollama)          |
 | Build Tool | Maven                       |
-
+| API Docs | Swagger UI, OpenAPI |
 ---
 
 ## Notification Flow
@@ -149,6 +149,17 @@ Refer to `application-example.properties` for the required configuration.
 * Delivery tracking with notification logs
 
 ---
+## API Documentation
+
+Interactive API documentation is available through Swagger UI after starting the application:
+
+`http://localhost:8080/swagger-ui/index.html`
+
+OpenAPI specification:
+
+`http://localhost:8080/v3/api-docs`
+
+![Swagger UI](docs/swagger-ui.png)
 
 ## Author
 
